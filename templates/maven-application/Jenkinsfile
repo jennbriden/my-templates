@@ -1,0 +1,14 @@
+// template name
+// template description
+// 0..* parameters
+
+
+pipeline {
+	stages {
+		stage ("Build") {
+			withMaven() {
+				sh "mvn clean deploy"
+			}
+		}
+	}
+}

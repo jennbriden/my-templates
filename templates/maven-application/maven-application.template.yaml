@@ -1,0 +1,22 @@
+"template": {
+	"name": "maven-application-template",
+  "displayName": "Maven Application",
+  "description": "mvn clean deploy..."
+  "attributes": {
+    [
+      {
+        "name": "name",
+        "displayName": "Name",
+        "type": "String",
+        "description": "Name of the pipeline"
+      },
+      {
+        "name": "repoName",
+        "displayName": "Repository Name",
+        "type": "String",
+        "description": "Name of the git repository in https://gitbub.com/my-company"  
+      }
+    ]
+  }
+  "Jenkinsfile": "./Jenkinsfile"
+}
